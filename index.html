@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Game</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- header -->
+  <div class="container">
+    <h1>Welcome to My Word Game</h1>
+  </div>
+
+  <!-- score -->
+  <div class="scoreboard">
+    <div>Score: <span id="score">0</span></div>
+    <div>Time: <span id="time">60</span></div>
+  </div>
+
+  <!-- input row -->
+  <div class="row">
+    <div class="col">
+      <input type="text" id="input1" maxlength="1" placeholder="A">
+    </div>
+    <div class="col">
+      <input type="text" id="input2" maxlength="1" placeholder="B">
+    </div>
+    <div class="col">
+      <input type="text" id="input3" maxlength="1" placeholder="C">
+    </div>
+  </div>
+
+  <!-- submit button -->
+  <div class="row">
+    <button id="submitBtn">Submit Result</button>
+  </div>
+
+  <script src="./js/logic.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  background: url("../images/background.jpg") no-repeat center center/cover; /* put image inside 'images' folder */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent header */
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f9f9f9;
+}
+
+.row {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  min-width: 150px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 10px #ffd700;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.scoreboard span {
+  color: #ffd700;
+}
+
+
+/* Button styling */
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #333;
+}
+
+button:hover {
+  background-color: #ffb400;
+  transform: scale(1.05);
+}
